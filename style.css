@@ -1,0 +1,122 @@
+body{
+  color: black;
+  margin: 0px 0px ;
+  padding: 0px 0px ;
+  background-color: gray;
+}
+
+#navbar{
+  position: fixed;
+  background-color:black;
+  height: 38px;
+  width: 100%;
+  border: 2px solid white;
+  box-shadow: 1px 3px 12px 4px;
+  
+}
+
+#navbar ul{
+  overflow: auto;
+  margin: 0px 0px;
+}
+
+ul #logo{
+  height: 40px;
+  width: 50px;
+  border: 2px solid red;
+  background-color: yellow;
+  position: absolute;
+  left: -2px;
+  top: -2px;
+}
+
+.navy{
+  float: left;
+  list-style: none;
+  color: white;
+  padding: 11px 30px;
+  
+  
+}
+
+#ham{
+  float: right;
+  height: 40px;
+  width: 70px;
+  padding: 4px 0px;
+}
+
+#ques{
+  position: absolute;
+  top: 100px;
+  left: 9%;
+  padding: 100px 100px;
+  margin: 0px 0px 0px 0px;
+  width: 50%;
+  color: white;
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 1px 5px 5px 4px Black ;
+  
+}
+
+div p{
+  color: black;
+  font-size: 20px;
+  font-weight:bolder;
+}
+
+#str{
+  position: relative;
+  bottom: 30px;
+  font-size: 70px;
+  height: 60px;
+  font-family: cursive;
+  
+}
+
+#str2{
+  font-family: cursive;
+  font-size: 70px;
+  padding-left: 50px;
+  position: relative;
+  left: 20px;
+  top: 60px;
+}
+
+#log{
+  height: 200px;
+  width: 200px;
+  
+  position: relative;
+  bottom: 160px;
+  right: 80px;
+  
+}
+
+#quiz{
+  text-align: left;
+}
+
+.q {
+  color: white;
+  background-color: black;
+  padding: 10px 10px;
+  box-shadow: 1px 5px 5px 4px black;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.q p{
+  color: white;
+}
+
+.q img{
+  height: 200px;
+  width:200px;
+}
+#sub{
+  height: 50px;
+  width: 100px;
+}
